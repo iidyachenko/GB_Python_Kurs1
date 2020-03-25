@@ -15,5 +15,5 @@ while True:
     user_numbers = input("Введите числа через пробел(для окончания программы нажмите Q): ").upper()
     sum_number(user_numbers)
     print("Общая сумма всех введеных чисел: ", num_sum)
-    if user_numbers.find('Q') > 0:
+    if user_numbers.find('Q') >= 0:
         break
