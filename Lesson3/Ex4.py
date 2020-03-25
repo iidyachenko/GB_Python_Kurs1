@@ -1,6 +1,6 @@
 def my_minus_pow1(num, minus_pow):
     """Первый вариант решения"""
-    return 1 / (num**minus_pow)
+    return 1 / (num ** abs(minus_pow))
 
 
 def my_minus_pow2(num, minus_pow):
