@@ -2,7 +2,7 @@ from sys import argv
 
 
 def salary(work_hour, hour_pay, bonus):
-    result = work_hour * hour_pay + bonus
+    result = int(work_hour) * int(hour_pay) + int(bonus)
     return result
 
 
