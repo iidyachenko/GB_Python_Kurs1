@@ -7,4 +7,4 @@ def salary(work_hour, hour_pay, bonus):
 
 
 script_name, work_hours, pay_hours, bonus_money = argv
-print("Заработная плата = ", salary(work_hours, pay_hours, bonus_money))
+print("Заработная плата = ", salary(work_hours, pay_hours, bonus_money)) 
