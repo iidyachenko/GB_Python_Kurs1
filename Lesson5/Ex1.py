@@ -11,6 +11,6 @@ while True:
         print(string)
 
 # решил записать все строи разом, что бы не открывать файл в цикле каждый раз.
-with open("text1.txt", 'w', encoding='UTF-8') as text_file:
+with open("text_gen_1.txt", 'w', encoding='UTF-8') as text_file:
     text_file.write(text)
 print(text)
