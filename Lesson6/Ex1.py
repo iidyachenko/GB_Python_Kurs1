@@ -5,7 +5,7 @@ from time import sleep
 from itertools import cycle
 
 
-class TrafficLight():
+class TrafficLight:
     def __init__(self):
         self.__color = 'Красный'
 
