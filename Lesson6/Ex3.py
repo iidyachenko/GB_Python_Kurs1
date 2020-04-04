@@ -1,3 +1,6 @@
+# Задание три. Создать класс рабочего и его потомка.
+
+
 class Worker:
     def __init__(self, name, surname, position, wage, bonus):
         self.name = name
